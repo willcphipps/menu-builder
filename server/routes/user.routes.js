@@ -4,7 +4,7 @@ const ProductController = require('../controllers/products.controller')
 const IngredientController = require('../controllers/ingredients.controller')
 const addedProductsController=require('../controllers/addedProducts.controller')
 const OrderController = require('../controllers/orders.controller')
-const stripe = require('stripe')('sk_test_Of2JoMbWy26fbznuekcOtTZ800Lb0ZJvRe')
+const stripe = require('stripe')('your_api_key_here')
 
 
 module.exports = app => {
